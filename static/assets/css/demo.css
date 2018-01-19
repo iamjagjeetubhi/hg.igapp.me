@@ -1,0 +1,301 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.icon-section {
+	margin: 0 0 3em;
+	clear: both;
+	overflow: hidden;
+}
+.icon-container {
+	width: 240px;
+	padding: .7em 0;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+.icon-container [class^="ti-"],
+.icon-container [class*=" ti-"] {
+	color: #000;
+	position: absolute;
+	margin-top: 3px;
+	transition: .3s;
+}
+.icon-container:hover [class^="ti-"],
+.icon-container:hover [class*=" ti-"] {
+	font-size: 2.2em;
+	margin-top: -5px;
+}
+.icon-container:hover .icon-name {
+	color: #000;
+}
+.icon-name {
+	color: #aaa;
+	margin-left: 35px;
+	font-size: .8em;
+	transition: .3s;
+}
+.icon-container:hover .icon-name {
+	margin-left: 45px;
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+body.nude{
+    background-color: #f4f3ef;
+}
+
+
+#new-year {
+  position: relative;
+  top: 50%;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto 0 auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#new-year svg {
+  width: 90%;
+  height: 100%;
+}
+
+.stroke-fill {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke: #efefef;
+}
+
+#happy-stroke {
+  -webkit-animation: happy-dash 1.7s linear normal forwards;
+          animation: happy-dash 1.7s linear normal forwards;
+}
+
+#n-stroke {
+  -webkit-animation: dash 2s 1.8s linear normal forwards;
+          animation: dash 2s 1.8s linear normal forwards;
+}
+
+#ew-stroke {
+  -webkit-animation: dash 2s 2.5s linear normal forwards;
+          animation: dash 2s 2.5s linear normal forwards;
+}
+
+#y-stroke {
+  -webkit-animation: dash 2s 3.3s linear normal forwards;
+          animation: dash 2s 3.3s linear normal forwards;
+}
+
+#ye-stroke {
+  -webkit-animation: dash 1s 4s linear normal forwards;
+          animation: dash 1s 4s linear normal forwards;
+}
+
+#ear-stroke {
+  -webkit-animation: dash 2s 4.18s linear normal forwards;
+          animation: dash 2s 4.18s linear normal forwards;
+}
+
+#underline-stroke {
+  -webkit-animation: dash 0.5s 5.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) normal forwards;
+          animation: dash 0.5s 5.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) normal forwards;
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes happy-dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  6% {
+    stroke-dashoffset: 976;
+  }
+  6.01% {
+    stroke-dashoffset: 958;
+  }
+  13% {
+    stroke-dashoffset: 936;
+  }
+  13.01% {
+    stroke-dashoffset: 905;
+  }
+  20% {
+    stroke-dashoffset: 896;
+  }
+  20.01% {
+    stroke-dashoffset: 864;
+  }
+  27% {
+    stroke-dashoffset: 840;
+  }
+  27.01% {
+    stroke-dashoffset: 830;
+  }
+  34% {
+    stroke-dashoffset: 808;
+  }
+  34.01% {
+    stroke-dashoffset: 775;
+  }
+  40% {
+    stroke-dashoffset: 764;
+  }
+  40.01% {
+    stroke-dashoffset: 738;
+  }
+  60% {
+    stroke-dashoffset: 688;
+  }
+  60.01% {
+    stroke-dashoffset: 658;
+  }
+  80% {
+    stroke-dashoffset: 610;
+  }
+  80.01% {
+    stroke-dashoffset: 580;
+  }
+  90% {
+    stroke-dashoffset: 555;
+  }
+  90.01% {
+    stroke-dashoffset: 543;
+  }
+  99.99% {
+    stroke-dashoffset: 525;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes happy-dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  6% {
+    stroke-dashoffset: 976;
+  }
+  6.01% {
+    stroke-dashoffset: 958;
+  }
+  13% {
+    stroke-dashoffset: 936;
+  }
+  13.01% {
+    stroke-dashoffset: 905;
+  }
+  20% {
+    stroke-dashoffset: 896;
+  }
+  20.01% {
+    stroke-dashoffset: 864;
+  }
+  27% {
+    stroke-dashoffset: 840;
+  }
+  27.01% {
+    stroke-dashoffset: 830;
+  }
+  34% {
+    stroke-dashoffset: 808;
+  }
+  34.01% {
+    stroke-dashoffset: 775;
+  }
+  40% {
+    stroke-dashoffset: 764;
+  }
+  40.01% {
+    stroke-dashoffset: 738;
+  }
+  60% {
+    stroke-dashoffset: 688;
+  }
+  60.01% {
+    stroke-dashoffset: 658;
+  }
+  80% {
+    stroke-dashoffset: 610;
+  }
+  80.01% {
+    stroke-dashoffset: 580;
+  }
+  90% {
+    stroke-dashoffset: 555;
+  }
+  90.01% {
+    stroke-dashoffset: 543;
+  }
+  99.99% {
+    stroke-dashoffset: 525;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+
